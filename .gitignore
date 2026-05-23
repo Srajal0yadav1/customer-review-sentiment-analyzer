@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets and Models
+customer_review_sentiment_analyzer/data/raw/reviews.csv
+customer_review_sentiment_analyzer/models/sentiment_model.pkl
+customer_review_sentiment_analyzer/data/processed/processed_reviews.csv
+
+
+# IDE files
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.csv
+*.pkl
+
+customer_review_sentiment_analyzer\__pycache__
